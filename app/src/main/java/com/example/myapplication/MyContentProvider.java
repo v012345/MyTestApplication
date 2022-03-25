@@ -24,7 +24,7 @@ public class MyContentProvider extends ContentProvider {
     static final Uri CONTENT_URI = Uri.parse(URL);
 
     static final String id = "id";
-//    static final String name = "name";
+    //    static final String name = "name";
     static final int uriCode = 1;
     static final UriMatcher uriMatcher;
     // declaring name of the database
@@ -40,6 +40,7 @@ public class MyContentProvider extends ContentProvider {
     private static HashMap<String, String> values;
 
     static {
+//test
 
         // to match the content URI
         // every time user access table under content provider
